@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="locate_values">
+        <item>GPS</item>
+        <item>网络(基站+WIFI)</item>
+        <item>GPS+网络(建议)</item>
+    </string-array>
+
+    <string-array name="notify_values">
+        <item>仅离开范围时通知</item>
+        <item>仅进入范围内通知</item>
+        <item>进入离开范围都通知</item>
+    </string-array>
+
+</resources>

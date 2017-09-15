@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    tools:context=".MainActivity">
+
+    <com.dev.sacot41.scviewpager.SCViewPager
+        android:id="@+id/BootPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.dev.sacot41.scviewpager.SCViewPager>
+
+    <com.dev.sacot41.scviewpager.DotsView
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dotsview_main" />
+
+    <TextView
+        android:layout_width="150dp"
+
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="100dp"
+        android:text="Hi"
+        android:layout_marginTop="141dp"
+        android:id="@+id/hi_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/nice_to_meet"
+        android:text="很高兴见到你"
+        android:layout_above="@+id/dotsview_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp" />
+
+    <ImageView
+        android:id="@+id/clock1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/alarmclock1"
+        android:layout_marginTop="57dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="1533年，世界上第一个闹钟诞生"
+        android:id="@+id/first_alarm"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="一直到今天。。。"
+        android:id="@+id/until_today"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="430dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="闹钟的作用依然是"
+        android:id="@+id/usage_of_alarm"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="465dp"/>
+
+    <TextView
+        android:id="@+id/do_on_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="在指定的时间提醒我们做一件事"
+        android:layout_below="@+id/usage_of_alarm"
+        android:layout_alignStart="@+id/until_today"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:id="@+id/building"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:rotation="20"
+        android:background="@drawable/building"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="可是老王每次经过超市都会忘记买菜"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/building" />
+
+    <TextView
+        android:id="@+id/want"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="他说他想要一个根据位置提醒的闹钟"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/but"
+        android:layout_alignStart="@+id/building" />
+
+    <TextView
+        android:id="@+id/then"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="他买了一本安卓教程自己动手开发了"
+        android:layout_below="@+id/want"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/building" />
+    <TextView
+        android:id="@+id/invent"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="MapAlarm"
+        android:layout_below="@+id/then"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="在合适的位置提醒你"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/bulb"
+        android:id="@+id/yes"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/enjoy"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:text="Enjoy"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

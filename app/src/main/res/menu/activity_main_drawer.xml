@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/choose_locate"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="选择定位方式" />
+        <item
+            android:id="@+id/choose_boot"
+            android:icon="@drawable/ic_restore_page_black_18dp"
+            android:title="再看一遍引导页" />
+        <item
+            android:id="@+id/choose_intro"
+            android:title="使用说明"
+            android:icon="@drawable/ic_find_in_page_black_18dp" />
+        <item
+            android:id="@+id/choose_team"
+            android:title="团队信息"
+            android:icon="@drawable/ic_supervisor_account_black_18dp" />
+    </group>
+</menu>

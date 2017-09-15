@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="只是给这个地点起个你习惯的名字而已\n真正的提醒范围还是以地图上的蓝圈为准"
+        android:textColor="#40000000" />
+
+    <EditText
+        android:id="@+id/EditPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="请输入事件地点."
+        android:textColor="#000000" />
+</LinearLayout>

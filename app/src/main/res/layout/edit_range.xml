@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="当你距离事件中心点多远时提醒\n修改后地图上的蓝圈半径会变为这个值"
+        android:textColor="#40000000" />
+
+    <EditText
+        android:id="@+id/EditRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入提醒范围大小..."
+        android:layout_marginTop="4dp"
+        android:textColor="#000000"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tipsLayout"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selecter"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_search_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_room_green_500_18dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="14dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        tools:text="name" />
+    <TextView
+        android:id="@+id/tv_item_search_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_grey"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="14dp"
+        android:paddingTop="5dp"
+        android:text="address"/>
+</LinearLayout>
